@@ -6,10 +6,9 @@ import Footer from "../components/Footer"
 export default function Dashboard(){
     return(
         <div>
-            <Header />
+            {/* <Header /> */}
             <Sidebar />
-            <Footer />
-            <h1>Dashboard</h1>
+            {/* <Footer /> */}
         </div>
     )
 }
