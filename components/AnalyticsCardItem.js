@@ -6,7 +6,7 @@ function AnalyticsCardItem({title, Icon, color, total, percent, PercentIcon, per
         <p className={`text-[${percentColor}] flex items-center text-xs`}>{percent} <PercentIcon className='h-4 w-4'/></p>
         </div>
         <p className="text-[#17254b] text-xl leading-[3rem] font-bold">{total}</p>
-        <p className="text-gray-500 text-sm">{title}</p>
+        <p className="text-gray-400 text-sm">{title}</p>
     </div>
   )
 }
