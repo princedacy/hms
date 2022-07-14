@@ -23,8 +23,8 @@ function ChartCard() {
   };
 
   return (
-    <div>
-      <Bar data={data} height={300} options={options} />
+    <div className='bg-white rounded-lg drop-shadow-sm p-4 mt-6'>
+      <Bar data={data} maxWidth={300} options={options}/>
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import {
   TemplateIcon,
-  TableIcon,
   ClipboardListIcon,
   CashIcon,
   UserGroupIcon,
+  ShoppingBagIcon,
+  PresentationChartLineIcon
 } from "@heroicons/react/outline";
 import SidebarItem from "./SidebarItem";
 import Image from "next/image";
@@ -21,7 +22,8 @@ function Sidebar() {
       </div>
       <div className="p-5">
         <SidebarItem title="Dashboard" Icon={TemplateIcon} />
-        <SidebarItem title="Inventory" Icon={TableIcon} />
+        <SidebarItem title="Stock" Icon={PresentationChartLineIcon} />
+        <SidebarItem title="Products" Icon={ShoppingBagIcon} />
         <SidebarItem title="Reporting" Icon={ClipboardListIcon} />
         <SidebarItem title="Accounting" Icon={CashIcon} />
         <SidebarItem title="Clients" Icon={UserGroupIcon} />

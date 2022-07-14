@@ -6,12 +6,12 @@ export const options = {
       position: "top",
       align: "start",
       labels: {
-        boxWidth: 10,
+        boxWidth: 15,
         usePointStyle: true,
         pointStyle: "circle",
       },
       title: {
-        text: "Sales report",
+        text: "Sales analytics",
         display: true,
         color: "#000",
         font: {
