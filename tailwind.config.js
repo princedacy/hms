@@ -20,6 +20,11 @@ module.exports = {
       '2xl': {'max': '1280px'},
       // => @media (max-width: 1280px) { ... }
     },
+    extend: {
+      colors: {
+        'primary-gray': '#C9CCD2'
+      }
+    }
   },
   plugins: [],
 }

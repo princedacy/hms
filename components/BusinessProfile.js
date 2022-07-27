@@ -5,7 +5,7 @@ function BusinessProfile() {
     <div>
       <div className="flex flex-col items-center">
         <Image
-          className="w-24 h-24 object-cover drop-shadow-sm rounded-full"
+          className="w-24 h-24 object-cover shadow rounded-full border border-primary-gray"
           src="/assets/hardware.jpeg"
           alt="Business logo"
           width={150}
@@ -13,8 +13,8 @@ function BusinessProfile() {
         />
         <p className="title text-sm leading-[3rem] font-semibold">Hardware Ltd.</p>
       </div>
-      <div className="stats grid grid-cols-2 gap-2 border p-2 rounded-lg">
-        <div className="stats__products flex flex-row items-center border-r pr-2">
+      <div className="stats grid grid-cols-2 gap-2 border border-primary-gray p-2">
+        <div className="stats__products flex flex-row items-center border-r border-primary-gray pr-2">
           <ShoppingBagIcon className="h-5 w-10 text-gray-500 bg-gray-100 p-1 rounded-lg" />
           <div className="stats__data ml-1">
             <p className="text-xs font-bold">200</p>

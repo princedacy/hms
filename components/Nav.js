@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div className="w-full flex items-center justify-between">
         <Welcome />
-        <Search/>
+        <Search />
     </div>
   )
 }
